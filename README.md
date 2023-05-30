@@ -1,8 +1,8 @@
 # c_programming
 
-/*Program to find the sum of three numbers*/
+``` /*Program to find the sum of three numbers*/
 
-``` #include<stdio.h>
+#include<stdio.h>
 void main() 
 {
 int num1, num2, sum;
@@ -26,8 +26,8 @@ c=20;
 sum = a+b+c;
 avg = sum/3;
 printf("The average is %.2f\n", avg);
-} ```
+}
 
 This program reads three numbers from the user and calculates their average. 
 The average is calculated by adding the three numbers together and dividing by 3. 
-The result is then printed to the console with two decimal places using the %.2f format specifier.
+The result is then printed to the console with two decimal places using the %.2f format specifier. ```
