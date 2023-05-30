@@ -1,6 +1,6 @@
 # c_programming
-
-```c /*Program to find the sum of three numbers*/
+```c
+/*Program to find the sum of three numbers*/
 
 c #include<stdio.h>
 void main() 
