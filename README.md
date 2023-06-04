@@ -63,4 +63,15 @@ printf("c=%d\n", c);
 c/=b;
 printf("c=%d\n", c);
 }
+
+/*Program for Prefix/Postfix ++ -- operator*/
+#include<stdio.h>
+void main()
+{
+int a = 5, b, c, d;
+b=++a;
+c=a++;
+d=++a;
+printf("%d\n", a);   
+}
 ```
