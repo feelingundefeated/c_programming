@@ -31,4 +31,18 @@ printf("The average is %.2f\n", avg);
 This program reads three numbers from the user and calculates their average. 
 The average is calculated by adding the three numbers together and dividing by 3. 
 The result is then printed to the console with two decimal places using the %.2f format specifier.
+
+/*Program for arithmetic calculations*/
+
+#include<stdio.h>
+void main()
+{
+int a = 10;
+int b = 7;
+printf("a+b = %d", a+b);
+printf("a-b = %d", a-b);
+printf("a*b = %d", a*b);
+printf("a/b = %d", a/b);
+printf("a%b = %d", a%b);
+} 
 ```
