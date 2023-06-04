@@ -2,7 +2,7 @@
 ```c
 /*Program to find the sum of three numbers*/
 
-c #include<stdio.h>
+#include<stdio.h>
 void main() 
 {
 int num1, num2, sum;
@@ -84,5 +84,16 @@ c=b++;
 d=b;
 f=a>b>d<c;
 printf("%d\n", a+c==b>=e<c+d!=1);
+}
+
+/*Program for logical operator*/
+#include<stdio.h>
+void main()
+{
+int a = 1, b = 6, result_1, result_2;
+result_1 = a--&&++b;
+result_2 = --a&&++b;
+printf("%d\n", result_1);
+printf("%d\n", result_2);
 }
 ```
