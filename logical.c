@@ -1,4 +1,5 @@
 /*Program for logical operator*/
+
 #include<stdio.h>
 void main()
 {
