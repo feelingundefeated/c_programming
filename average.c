@@ -1,4 +1,5 @@
 /*Program to compute average of three numbers*/
+
 #include <stdio.h>
 void main()
 {
